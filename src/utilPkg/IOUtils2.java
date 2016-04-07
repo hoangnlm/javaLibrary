@@ -13,7 +13,7 @@ import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 import java.util.List;
 
-public class IOUtils2 extends IOUtils {
+public class IOUtils2 {
 //	 ghi du lieu HocVien duoi dang data stream
 	public static void writeHocVienByDataStream(String path, List<HocVien> countries) throws IOException {
 		// Buoc 1: mo stream
